@@ -12,6 +12,7 @@ caseGR.addActiveQuery();
 caseGR.query();
 while (caseGR.next()) {
 	caseGR.short_description = 'Finance Request';
+	//Setting priority to "3-Moderate"
 	caseGR.priority='3';
 	caseGR.update();
 }]]></script>
@@ -19,14 +20,14 @@ while (caseGR.next()) {
         <sys_created_by>david.self</sys_created_by>
         <sys_created_on>2019-06-04 11:10:31</sys_created_on>
         <sys_id>5a9357864f71b300d0b6eb118110c744</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Financial Case Management Demo</sys_name>
         <sys_package display_value="Financial Case Management" source="x_162684_financial">3dd9a80a4f717300d0b6eb118110c75e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Financial Case Management">3dd9a80a4f717300d0b6eb118110c75e</sys_scope>
         <sys_update_name>sys_script_fix_5a9357864f71b300d0b6eb118110c744</sys_update_name>
         <sys_updated_by>david.self</sys_updated_by>
-        <sys_updated_on>2019-06-04 11:33:39</sys_updated_on>
+        <sys_updated_on>2019-06-06 16:18:12</sys_updated_on>
         <unloadable>true</unloadable>
     </sys_script_fix>
 </record_update>
